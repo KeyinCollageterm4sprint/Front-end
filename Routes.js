@@ -11,7 +11,7 @@ const Routes = () => {
         <Router>
             <Main path="/" />
             <Login path="/login" />
-            <CarList path="/carlist" /> {/* Add the route for CarList component */}
+            <CarList path="/carlist" />
         </Router>
     );
 }

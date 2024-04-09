@@ -1,14 +1,14 @@
-// App.js
-
 import React from 'react';
-import Routes from './Routes'; // Import the Routes component
-import CarList from './CarList'; // Import the CarList component
+import Routes from './Routes';
+import CarList from './CarList';
 
 const App = () => {
+    console.log('Rendering App component');
+    
     return (
         <div>
-            <Routes /> {/* Render the Routes component */}
-            <CarList /> {/* Add the CarList component to be rendered */}
+            <Routes />
+            <CarList />
         </div>
     );
 }

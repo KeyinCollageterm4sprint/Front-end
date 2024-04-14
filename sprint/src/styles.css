@@ -1,0 +1,129 @@
+/* Style for CarSearch component */
+.CarSearch {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s; /* Smooth transition for all properties */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle box shadow */
+}
+
+.CarSearch h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+    font-family: 'Arial', sans-serif; /* Custom font */
+}
+
+.CarSearch form {
+    margin-bottom: 20px;
+}
+
+.CarSearch input {
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the input */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.CarSearch input:hover {
+    border-color: #007bff; /* Hover effect for input */
+}
+
+.CarSearch button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.CarSearch button:hover {
+    background-color: #0056b3; /* Hover effect for button */
+}
+
+.CarSearch ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.CarSearch li {
+    margin-bottom: 10px;
+}
+
+/* Style for Login component */
+.Login {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content horizontally */
+}
+
+.Login h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+    font-family: 'Arial', sans-serif; /* Custom font */
+}
+
+.Login form {
+    margin: 0 auto; /* Center the form horizontally within the Login component */
+    max-width: 400px; /* Limit the width of the form */
+}
+
+.Login label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Login input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.Login input:hover {
+    border-color: #28a745;
+}
+
+.Login button {
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Login button:hover {
+    background-color: #218838;
+}
+
+.Login .search-bar {
+    display: flex;
+    justify-content: center; /* Center the search bars horizontally */
+}
+
+.Login .search-bar input {
+    margin-right: 10px; /* Add spacing between search bars */
+}
